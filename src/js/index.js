@@ -23,6 +23,7 @@ function resumeTime(){
 function countDown(startTime = Number){
     time = startTime;
     timeDirection = 0;
+    ReactDOM.render(<Home/>, document.querySelector("#app"));
 }
 
 function Home(){
